@@ -3,7 +3,7 @@ class Asciitex < Formula
   homepage "https://asciitex.sourceforge.io"
   url "https://downloads.sourceforge.net/project/asciitex/asciiTeX-0.21.tar.gz"
   sha256 "abf964818833d8b256815eb107fb0de391d808fe131040fb13005988ff92a48d"
-  license "GPL-2.0"
+  license "GPL-2.0-only"
 
   bottle do
     sha256 cellar: :any_skip_relocation, arm64_monterey: "99da7eb7e14ae19b86cbb881e662fbc6a67cd26c7aadd4cb038add368f9eeb3b"
