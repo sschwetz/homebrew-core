@@ -3,7 +3,7 @@ class Ape < Formula
   homepage "https://web.archive.org/web/20200810042306/www.ape-project.org/"
   url "https://github.com/APE-Project/APE_Server/archive/v1.1.2.tar.gz"
   sha256 "c5f6ec0740f20dd5eb26c223149fc4bade3daadff02a851e2abb7e00be97db42"
-  license "GPL-2.0-0-only"
+  license "GPL-2-only"
 
   bottle do
     sha256 cellar: :any_skip_relocation, high_sierra: "54387a0a2a38314a0def581f67c517d9ff7f82efd431e9811cf774cf235850a3"
