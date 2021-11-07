@@ -4,7 +4,6 @@ class Admesh < Formula
   url "https://github.com/admesh/admesh/releases/download/v0.98.4/admesh-0.98.4.tar.gz"
   sha256 "1c441591f2223034fed2fe536cf73e996062cac840423c3abe5342f898a819bb"
   license "GPL-2.0-only"
-  revision 1
 
   bottle do
     sha256 cellar: :any,                 arm64_monterey: "d07859389041c5bf1e2c03f5d2ac56a38013263ec3a7f682fbc0357aacbc056b"
