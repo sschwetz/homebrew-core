@@ -4,7 +4,6 @@ class Advancescan < Formula
   url "https://github.com/amadvance/advancescan/releases/download/v1.18/advancescan-1.18.tar.gz"
   sha256 "8c346c6578a1486ca01774f30c3e678058b9b8b02f265119776d523358d24672"
   license "GPL-2.0-only"
-  revision 1
 
   bottle do
     sha256 cellar: :any_skip_relocation, arm64_monterey: "2f031fe7a7fcb2f3184a2b5e07339d6b400c3d776d43f6b1a1a62bdaaf49eed6"
