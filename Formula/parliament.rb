@@ -3,31 +3,31 @@ class Parliament < Formula
 
   desc "AWS IAM linting library"
   homepage "https://github.com/duo-labs/parliament"
-  url "https://files.pythonhosted.org/packages/64/9a/a5c9a9659131e855f1e93257accf3ea1a7921af71ab42ecb11c76ce8f22a/parliament-1.5.0.tar.gz"
-  sha256 "97527eed203241a2ab4702929da42d60dbd1c95eb9f51634f2fd6b5e8824d511"
+  url "https://files.pythonhosted.org/packages/ca/61/006a39b26dfaa909a6b0dda45b7f9df41e9d3be90517da7b1163b5d28377/parliament-1.5.2.tar.gz"
+  sha256 "80945a97715d1cfd736978727896ef8d39328fa6edc88be248116660309cf799"
   license "BSD-3-Clause"
   head "https://github.com/duo-labs/parliament.git", branch: "main"
 
   bottle do
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "4b05cd6d9df820794fac59693082ed42cc07974f2ebb98f17efadd3bc5353a21"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur:  "f5305eafbcc99eb99b99121d6b23a134ec64428d36bc46c7a134c6c948172415"
-    sha256 cellar: :any_skip_relocation, monterey:       "1c1c045bfa3a242cf2449104d7a1d93872101d52a4ae822832fd930795102705"
-    sha256 cellar: :any_skip_relocation, big_sur:        "907803d5bd949a910058883d41e12e3d2a835f94e983d2f3dd62e3a227ead742"
-    sha256 cellar: :any_skip_relocation, catalina:       "00ccac3c48a41f9f13a82662e082f3ce9a3cbbe89be5cf2b128000a8993d1360"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:   "515a7169ed8482ab3cc98131a9b97c817aee804dbf174e98529d1ecf45d17cdf"
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "333d2e3d3efdf8b87f9c0fe9fa2d03081256afad546880b459123e00aa4d1f6e"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur:  "5323fb61cea69c3c06af5b6b65e7e3176b724b4c0feb603fd1797a681ef9a042"
+    sha256 cellar: :any_skip_relocation, monterey:       "3ec93ebd9de4c765ffdca0d96fd3d8bdf7df372ea4eb4e073d5f416153d5c8c0"
+    sha256 cellar: :any_skip_relocation, big_sur:        "0adaa6db71638d44fdc5879feb17e748a0bba14138b61804e32cdf52e74ac3ef"
+    sha256 cellar: :any_skip_relocation, catalina:       "82a8834f0e2692caa13738729dbf6f476a494ddb065e416c65d224523bed661f"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:   "d68a0e002aeb5bd42edd23fb04247a6567926b1bc5356c65168d11929e323d2e"
   end
 
   depends_on "python@3.10"
   depends_on "six"
 
   resource "boto3" do
-    url "https://files.pythonhosted.org/packages/81/3a/776194a3af46fa263f4f70757fd8ab41b89b6695d257fe267d33c202d228/boto3-1.19.10.tar.gz"
-    sha256 "79c982c5930f989292ca849b0caaa1ffeb9eb9d27c32992c3b2f6736b3b14ad2"
+    url "https://files.pythonhosted.org/packages/6d/27/5a5e2c3048d83dcbbd89167810e59d67035bdcb5e2aa2453b8f171e12c27/boto3-1.20.0.tar.gz"
+    sha256 "17b942d9513f396b2e90f71131b48cdc49279c9714189bbf84a232d189a793dd"
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/a1/fa/a433898fe23c380319c1a099e022090098b6d384ad685977e3954d230ea3/botocore-1.22.10.tar.gz"
-    sha256 "dffa1e7e7e3a8da73bbdead3aeff7d52fd5a159a1a93b2896ac67b2aa79a461c"
+    url "https://files.pythonhosted.org/packages/28/e4/202d80d8f891949537ca83398ff5586068c6ab515bdaac85936169578309/botocore-1.23.1.tar.gz"
+    sha256 "3daa7148017685ee8120c12b024ad2b6eadc1abc775627d4f4dd8182aaca5d0f"
   end
 
   resource "jmespath" do
